@@ -3,22 +3,46 @@ header{
     padding-top: 50px;
     height: 16%;
     text-align: center;
-    background: black;
+    background: white;
     left: 0;
+    font-size: large;
 }
 
 body{
     background: #f1f1f1;
+    font-family: 'Courier New', monospace;
 }
 
-.leftcolumn{
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('search.gif');
+    background-size: 40px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    margin-top: -800px;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 100%;
+  }
+
+.leftcolumn {
     padding: 20px;
-	height: 100%;
-	position: fixed;
-	left: 0;
-    background-color: lightblue;
-    margin-top: 0px;
-}
+    height: 100%;
+    position: sticky; 
+    top: 0; 
+    left: 0; 
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    margin-right: 88%;
+  }
 
 .rightcolumn{
     padding-left: 200px;
@@ -31,12 +55,20 @@ body{
     margin-right: 5px;
 }  
 
+#firstcard {
+    background-color: white;
+    padding: 20px;
+    margin-top: -750px;
+    margin-right: 5px;
+}
+
 footer{
     padding: 30px;
     padding-top: 50px;
     height: 16%;
     text-align: center;
-    background: white;
+    background: black;
+    color: white;
     margin-top: 20px;
     position: sticky;
 }
