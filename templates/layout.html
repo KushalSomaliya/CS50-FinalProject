@@ -1,5 +1,6 @@
-<html>
+<html lang="en">
     <head>
+        <title>{% block title %}Layout{% endblock %}</title></title>
         <link href="/static/style.css" rel="stylesheet">
     </head>
     <body>
@@ -14,8 +15,8 @@
             </div>
             <div class="rightcolumn">
                 <form>
-                    <input type="text" name="search" placeholder="Search..">
-                  </form>
+                    <input type="text" name="search" placeholder="Search Recipe.." autocomplete="off">
+                </form>
                 <div id="firstcard">
                     <h2>First data</h2>
                 </div>

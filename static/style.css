@@ -26,11 +26,12 @@ input[type=text] {
     padding: 12px 20px 12px 40px;
     margin-top: -800px;
     transition: width 0.4s ease-in-out;
-  }
+    width: 15%;
+}
   
-  input[type=text]:focus {
+input[type=text]:focus {
     width: 100%;
-  }
+}
 
 .leftcolumn {
     padding: 20px;
