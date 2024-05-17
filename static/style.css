@@ -13,7 +13,7 @@ body{
     font-family: 'Courier New', monospace;
 }
 
-input[type=text] {
+input[type=search][name=search] {
     width: 130px;
     box-sizing: border-box;
     border: 2px solid #ccc;
@@ -29,8 +29,47 @@ input[type=text] {
     width: 15%;
 }
   
-input[type=text]:focus {
+input[type=search][name=search]:focus {
     width: 100%;
+}
+
+input[type=text][name=name] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('person.png');
+    background-size: 40px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    margin-top: 40px;
+    width: 15%;
+}
+
+input[type=password] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('password.png');
+    background-size: 40px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 42px;
+    margin-top: 20px;
+    width: 15%;
+}
+
+input[type=submit] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: rgb(179, 208, 255, 0.3);
 }
 
 .leftcolumn {
