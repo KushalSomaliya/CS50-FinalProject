@@ -112,3 +112,11 @@ footer{
     margin-top: 20px;
     position: sticky;
 }
+
+.error {
+    padding: 30px;
+    text-align: center;
+    background: red;
+    font-size: x-large;
+    font-weight: bold;
+}
