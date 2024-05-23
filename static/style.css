@@ -24,7 +24,7 @@ input[type=search][name=search] {
     background-size: 40px;
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
-    margin-top: -800px;
+    /* margin-top: -800px; */
     transition: width 0.4s ease-in-out;
     width: 15%;
 }
@@ -74,14 +74,17 @@ input[type=submit] {
 
 .leftcolumn {
     padding: 20px;
-    height: 100%;
-    position: sticky; 
-    top: 0; 
-    left: 0; 
+    width: 200px; /* or any desired width */
+    height: 100vh; /* Make the height equal to the viewport height */
+    position: sticky;
+    top: 0;
+    left: 0;
     background-color: black;
     color: white;
     margin-top: 20px;
-    margin-right: 88%;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column; /* This will make the items inside the column stack vertically */
   }
 
 .rightcolumn{
@@ -98,7 +101,7 @@ input[type=submit] {
 #firstcard {
     background-color: white;
     padding: 20px;
-    margin-top: -750px;
+    /* margin-top: -750px; */
     margin-right: 5px;
 }
 
